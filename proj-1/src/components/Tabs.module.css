@@ -1,0 +1,13 @@
+.tab-content{
+    background-color: #eb4034;
+    height: 97vh;
+    width: auto;
+    display:none;
+}
+.select{
+    display: block;
+}
+
+.tab-button{
+    padding: 10px;
+}

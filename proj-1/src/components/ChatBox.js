@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Popover, OverlayTrigger } from "react-bootstrap";
 import classes from "./ChatBox.module.css"
-import {BsFillChatLeftDotsFill} from 'react-icons/fa';
+import {BsFillChatLeftDotsFill} from 'react-icons/bs';
 
 const ChatBox = () => {
   return (
@@ -21,7 +21,7 @@ const ChatBox = () => {
             </Popover>
           }
         >
-          <Button>{BsFillChatLeftDotsFill}</Button>
+          <Button><BsFillChatLeftDotsFill/> </Button>
         </OverlayTrigger>
       </div>
     
