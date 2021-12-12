@@ -1,7 +1,14 @@
 .side-bar{
-    
+  display: flex;
   float:left;
-    width: 50px;
+    width: 100px;
     height: 100vh;
     background-color:#3F3F3F ;
+    justify-content: center;
+    font-size: 70px;
+    
 }
+/* .AiFillHome{
+  font-size: 70px;
+
+} */
